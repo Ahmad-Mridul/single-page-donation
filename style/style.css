@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background-image: url(../images/donation13.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.hero p {
+    text-align: center;
+    margin-top: -20px;
+    font-family: 'Times new roman';
+}
+
+.hero h1 {
+    font-family: 'Times new roman';
+    text-align: center;
+    font-size: 50px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #FF5959;
+    color: white;
+}
+
+#donate-today {
+    text-align: center;
+    padding: 50px;
+    font-family: 'Times new roman';
+}
+
+#donate-today p {
+    color: #7c7373;
+}
+
+#amount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 50px;
+    color: #7c7373;
+}
+
+.amount-donate {
+    padding: 30px;
+    background-color: #f1f1f1;
+    margin: 10px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+input {
+    width: 50%;
+    border-bottom: 3px solid #949090;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.plans p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.plans h1 {
+    font-size: 30px;
+}
+
+.stories {
+    display: flex;
+    padding: 100px;
+}
+
+.stories p {
+    text-align: justify;
+    color: #807c7c;
+}
+
+input:focus {
+    outline: none;
+}
+
+input#email {
+    border-radius: 5px 0 0 5px;
+    background-color: #7c7373;
+    height: 50px;
+    margin-top: -10px;
+}
+
+footer {
+    background-color: #0B0D17;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
